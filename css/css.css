@@ -1,0 +1,150 @@
+	@import url(http://fonts.googleapis.com/css?family=Snippet);
+	@import url(http://fonts.googleapis.com/css?family=Aguafina+Script);
+	@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+	@import url(http://fonts.googleapis.com/css?family=Medula+One);	
+	body{
+		background: url("../img/fundo.jpg");	
+		/*background-size:100% 100%;*/
+		/*background-size: 1278px 1380px;*/	
+		background-repeat:no-repeat;
+		color: #FFFFFF;
+		font-family: 'Aguafina Script';	
+	}
+
+/*TESTE BETA */
+
+body  {
+    -webkit-animation : gallery 40s infinite;
+    background-image  : url("../img/fundo.jpg");
+    background-repeat : no-repeat;
+
+}
+
+@-webkit-keyframes gallery {
+    0%   { background-image : url("../img/fundo.jpg"); }
+    6%   { background-image : url("../img/fundo.jpg"); }
+    8%   { background-image : url("../img/fundo.jpg"); }
+    14%  { background-image : url("../img/fundo.jpg"); }
+    16%  { background-image : url("../img/fundo.jpg"); }
+    22%  { background-image : url("../img/fundo.jpg"); }
+    24%  { background-image : url("../img/fundo.jpg"); }
+    30%  { background-image : url("../img/fundo.jpg"); }
+    32%  { background-image : url("../img/fund2.jpg"); }
+    38%  { background-image : url("../img/fund2.jpg"); }
+    40%  { background-image : url("../img/fund2.jpg"); }
+    46%  { background-image : url("../img/fund2.jpg"); }
+    48%  { background-image : url("../img/fund2.jpg"); }
+    54%  { background-image : url("../img/fund2.jpg"); }
+    56%  { background-image : url("../img/fund2.jpg"); }
+    62%  { background-image : url("../img/fund2.jpg"); }
+    64%  { background-image : url("../img/fund3.jpg"); }
+    70%  { background-image : url("../img/fund3.jpg"); }
+    72%  { background-image : url("../img/fund3.jpg"); }
+    78%  { background-image : url("../img/fund3.jpg"); }
+    80%  { background-image : url("../img/fund3.jpg"); }
+    86%  { background-image : url("../img/fund3.jpg"); }
+    88%  { background-image : url("../img/fund3.jpg"); }
+    94%  { background-image : url("../img/fund3.jpg"); }
+    100% { background-image : url("../img/fund3.jpg"); }
+}
+
+	#casal{
+		font-size: 92px;	
+		text-shadow: 2px 2px #668800;
+		text-align: right;
+		float: right;
+		width: 100%;
+			
+	}
+	.end{
+		font-size: 26px;	
+		text-shadow: 2px 2px #668800;
+		text-align: right;
+		float: right;
+		width: 100%;	
+		font-family: 'Medula One';
+	}
+	.pais{
+		font-size: 24px;	
+		text-shadow: 2px 2px #668800;
+		text-align: right;
+		float: right;
+		width: 100%;	
+		font-family: 'Medula One';
+	}
+	#strut{
+		margin:0%;
+		padding: 0%;		
+		width: 100%;
+		height: 100%;
+			
+	}
+	#info-area{	  
+	  width:100%;		  
+	}
+	.caixa{
+	  width:180px;
+	  height:180px;
+	  text-align:center;
+	  margin-top:400px;
+	  position:absolute;
+	  /*border: 1px solid #FFFFFF;*/
+	  text-shadow: 2px 2px #668800;
+	  font-family: 'Medula One';
+	  font-size:32px;	  
+	}
+	.caixa a{
+		text-decoration: none; color: #FFFFFF;
+		}
+	.caixa a img{
+		border:none;
+		}		
+	#local{
+	  margin-left:125px;
+	}
+	#presentes{
+	  margin-left:350px; 
+	}
+	#info{
+	  margin-left:575px;	 
+	}
+	#fale{
+	  margin-left:800px;
+	}	
+	#xtra{
+	  margin-left:1025px;
+	}
+	.cont-box{
+		background-color: #FFFFFF;
+		width:800px;
+		height:650px;
+		overflow: auto;
+		padding: 3px;
+		position: absolute;
+		margin-top:0px;
+		margin-left:0px;
+		display: none;	
+		color: #000000;		
+		font-family: 'Snippet' ;
+		box-shadow: 3px 3px 5px #668800;
+	}	
+	.cont-box h1{
+		font-family:'Medula One';	
+	}
+	.fecha{
+		width: 100%;
+		color:#FFFFFF;		
+		text-align: center;		
+		}
+	.fecha a{
+		color: #668800;
+		text-decoration: none;
+		font-weight: bolder;
+		}
+	.cont-box a{
+		color: #005500;
+		text-decoration: none;
+		font-weight: bolder;
+		}		
+		form #nome, form #email{border: 2px solid #999999; }
+		textarea{border: 1px solid #000000; }
